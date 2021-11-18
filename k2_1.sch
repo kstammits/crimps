@@ -1,0 +1,697 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11774 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6200 2300 6100 2300
+Wire Wire Line
+	6100 2300 6100 2400
+Wire Wire Line
+	3100 2200 3200 2200
+Wire Wire Line
+	3200 2200 3200 2300
+Wire Wire Line
+	3100 2100 3200 2100
+Wire Wire Line
+	3200 2100 3200 2200
+Connection ~ 3200 2200
+Wire Wire Line
+	8400 4100 8300 4100
+Wire Wire Line
+	8300 4100 8300 4200
+Wire Wire Line
+	4500 2200 4400 2200
+Wire Wire Line
+	4400 2200 4400 2300
+Wire Wire Line
+	4400 3900 4400 4000
+Wire Wire Line
+	4400 3900 4500 3900
+Wire Wire Line
+	6600 4000 6500 4000
+Wire Wire Line
+	6500 4000 6500 4100
+Wire Wire Line
+	8400 5400 8300 5400
+Wire Wire Line
+	8300 5400 8300 5500
+Wire Wire Line
+	6600 5300 6500 5300
+Wire Wire Line
+	6500 5300 6500 5400
+Wire Wire Line
+	4300 3700 4400 3700
+Wire Wire Line
+	5300 3200 4400 3200
+Wire Wire Line
+	4400 3700 4500 3700
+Connection ~ 4400 3700
+Wire Wire Line
+	5200 3500 5200 3800
+Wire Wire Line
+	5200 3800 5100 3800
+Wire Wire Line
+	5200 3800 5450 3800
+Connection ~ 5200 3800
+Wire Wire Line
+	6400 3800 6500 3800
+Wire Wire Line
+	6500 3800 6600 3800
+Wire Wire Line
+	6500 3800 6500 3500
+Wire Wire Line
+	6800 3500 6500 3500
+Connection ~ 6500 3800
+Wire Wire Line
+	8400 3900 8300 3900
+Wire Wire Line
+	6500 5100 6600 5100
+Wire Wire Line
+	6500 5100 6500 4800
+Wire Wire Line
+	6500 4800 6500 4500
+Wire Wire Line
+	6400 4500 6500 4500
+Wire Wire Line
+	6400 4800 6500 4800
+Wire Wire Line
+	6400 5100 6500 5100
+Wire Wire Line
+	6500 4800 6700 4800
+Connection ~ 6500 4800
+Connection ~ 6500 5100
+Wire Wire Line
+	8300 5200 8400 5200
+Wire Wire Line
+	7200 5200 7300 5200
+Wire Wire Line
+	7100 4800 7300 4800
+Wire Wire Line
+	7300 4800 7300 5200
+Wire Wire Line
+	3800 2000 3900 2000
+Wire Wire Line
+	3900 3700 3800 3700
+Wire Wire Line
+	3800 3700 3800 2000
+Wire Wire Line
+	6000 5100 3800 5100
+Wire Wire Line
+	3800 5100 3800 3700
+Connection ~ 3800 3700
+Wire Wire Line
+	4300 2000 4400 2000
+Wire Wire Line
+	4400 2000 4500 2000
+Wire Wire Line
+	4600 1700 4400 1700
+Wire Wire Line
+	4400 1700 4400 2000
+Connection ~ 4400 2000
+Wire Wire Line
+	5900 4800 6000 4800
+Wire Wire Line
+	6000 4500 5900 4500
+Wire Wire Line
+	5900 4500 5900 4800
+Wire Wire Line
+	5800 3800 5800 3200
+Wire Wire Line
+	5800 3200 5700 3200
+Wire Wire Line
+	5800 3800 5750 3800
+Wire Wire Line
+	5800 3800 5900 3800
+Wire Wire Line
+	5900 3800 6000 3800
+Wire Wire Line
+	5900 4500 5900 3800
+Connection ~ 5900 3800
+Connection ~ 5900 4500
+Connection ~ 5800 3800
+Wire Wire Line
+	5200 1700 5000 1700
+Wire Wire Line
+	5100 2100 5200 2100
+Wire Wire Line
+	5200 1700 5200 2100
+Wire Wire Line
+	6200 2100 6100 2100
+Wire Wire Line
+	7200 3500 7300 3500
+Wire Wire Line
+	7200 3900 7300 3900
+Wire Wire Line
+	7300 3500 7300 3900
+$Comp
+L k2-eagle-import:GND #GND4
+U 1 1 6AE2E73F
+P 6100 2500
+AR Path="/6AE2E73F" Ref="#GND4"  Part="1" 
+AR Path="/61896CD9/6AE2E73F" Ref="#GND04"  Part="1" 
+F 0 "#GND04" H 6100 2500 50  0001 C CNN
+F 1 "GND" H 6000 2400 59  0000 L BNN
+F 2 "" H 6100 2500 50  0001 C CNN
+F 3 "" H 6100 2500 50  0001 C CNN
+	1    6100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:PJ301_THONKICONN6 J1
+U 1 1 92202B0B
+P 2900 2100
+AR Path="/92202B0B" Ref="J1"  Part="1" 
+AR Path="/61896CD9/92202B0B" Ref="J1"  Part="1" 
+F 0 "J1" H 2800 2260 59  0000 L BNN
+F 1 "PJ301_THONKICONN6" H 2900 2100 50  0001 C CNN
+F 2 "k2:WQP_PJ_301M6" H 2900 2100 50  0001 C CNN
+F 3 "" H 2900 2100 50  0001 C CNN
+	1    2900 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:PJ301_THONKICONN6 J4
+U 1 1 5FA14143
+P 8600 5300
+AR Path="/5FA14143" Ref="J4"  Part="1" 
+AR Path="/61896CD9/5FA14143" Ref="J4"  Part="1" 
+F 0 "J4" H 8500 5460 59  0000 L BNN
+F 1 "PJ301_THONKICONN6" H 8600 5300 50  0001 C CNN
+F 2 "k2:WQP_PJ_301M6" H 8600 5300 50  0001 C CNN
+F 3 "" H 8600 5300 50  0001 C CNN
+	1    8600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:PJ301_THONKICONN6 J2
+U 1 1 F1780596
+P 6400 2200
+AR Path="/F1780596" Ref="J2"  Part="1" 
+AR Path="/61896CD9/F1780596" Ref="J2"  Part="1" 
+F 0 "J2" H 6300 2360 59  0000 L BNN
+F 1 "PJ301_THONKICONN6" H 6400 2200 50  0001 C CNN
+F 2 "k2:WQP_PJ_301M6" H 6400 2200 50  0001 C CNN
+F 3 "" H 6400 2200 50  0001 C CNN
+	1    6400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:PJ301_THONKICONN6 J3
+U 1 1 83A3164B
+P 8600 4000
+AR Path="/83A3164B" Ref="J3"  Part="1" 
+AR Path="/61896CD9/83A3164B" Ref="J3"  Part="1" 
+F 0 "J3" H 8500 4160 59  0000 L BNN
+F 1 "PJ301_THONKICONN6" H 8600 4000 50  0001 C CNN
+F 2 "k2:WQP_PJ_301M6" H 8600 4000 50  0001 C CNN
+F 3 "" H 8600 4000 50  0001 C CNN
+	1    8600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:GND #GND13
+U 1 1 78C00C8D
+P 3200 2400
+AR Path="/78C00C8D" Ref="#GND13"  Part="1" 
+AR Path="/61896CD9/78C00C8D" Ref="#GND013"  Part="1" 
+F 0 "#GND013" H 3200 2400 50  0001 C CNN
+F 1 "GND" H 3100 2300 59  0000 L BNN
+F 2 "" H 3200 2400 50  0001 C CNN
+F 3 "" H 3200 2400 50  0001 C CNN
+	1    3200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:GND #GND21
+U 1 1 B6C57476
+P 8300 4300
+AR Path="/B6C57476" Ref="#GND21"  Part="1" 
+AR Path="/61896CD9/B6C57476" Ref="#GND021"  Part="1" 
+F 0 "#GND021" H 8300 4300 50  0001 C CNN
+F 1 "GND" H 8200 4200 59  0000 L BNN
+F 2 "" H 8300 4300 50  0001 C CNN
+F 3 "" H 8300 4300 50  0001 C CNN
+	1    8300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 IC1
+U 1 1 70C115B1
+P 6900 3900
+AR Path="/70C115B1" Ref="IC1"  Part="1" 
+AR Path="/61896CD9/70C115B1" Ref="IC1"  Part="1" 
+F 0 "IC1" H 7000 4025 59  0001 L BNN
+F 1 "TL074" H 7000 3700 59  0001 L BNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6900 3900 50  0001 C CNN
+F 3 "" H 6900 3900 50  0001 C CNN
+	1    6900 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R10
+U 1 1 E51D7956
+P 4100 2000
+AR Path="/E51D7956" Ref="R10"  Part="1" 
+AR Path="/61896CD9/E51D7956" Ref="R10"  Part="1" 
+F 0 "R10" H 3950 2059 59  0000 L BNN
+F 1 "200k" H 3950 1870 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4100 2000 50  0001 C CNN
+F 3 "" H 4100 2000 50  0001 C CNN
+	1    4100 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R11
+U 1 1 3C282B7A
+P 4800 1700
+AR Path="/3C282B7A" Ref="R11"  Part="1" 
+AR Path="/61896CD9/3C282B7A" Ref="R11"  Part="1" 
+F 0 "R11" H 4650 1759 59  0000 L BNN
+F 1 "200k" H 4650 1570 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4800 1700 50  0001 C CNN
+F 3 "" H 4800 1700 50  0001 C CNN
+	1    4800 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:GND #GND23
+U 1 1 AA6367B1
+P 4400 2400
+AR Path="/AA6367B1" Ref="#GND23"  Part="1" 
+AR Path="/61896CD9/AA6367B1" Ref="#GND023"  Part="1" 
+F 0 "#GND023" H 4400 2400 50  0001 C CNN
+F 1 "GND" H 4300 2300 59  0000 L BNN
+F 2 "" H 4400 2400 50  0001 C CNN
+F 3 "" H 4400 2400 50  0001 C CNN
+	1    4400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R9
+U 1 1 4AE58BC0
+P 4100 3700
+AR Path="/4AE58BC0" Ref="R9"  Part="1" 
+AR Path="/61896CD9/4AE58BC0" Ref="R9"  Part="1" 
+F 0 "R9" H 3950 3759 59  0000 L BNN
+F 1 "200k" H 3950 3570 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4100 3700 50  0001 C CNN
+F 3 "" H 4100 3700 50  0001 C CNN
+	1    4100 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R18
+U 1 1 534C61D4
+P 5500 3200
+AR Path="/534C61D4" Ref="R18"  Part="1" 
+AR Path="/61896CD9/534C61D4" Ref="R18"  Part="1" 
+F 0 "R18" H 5350 3259 59  0000 L BNN
+F 1 "100k" H 5350 3070 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5500 3200 50  0001 C CNN
+F 3 "" H 5500 3200 50  0001 C CNN
+	1    5500 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:GND #GND24
+U 1 1 E73C58C9
+P 4400 4100
+AR Path="/E73C58C9" Ref="#GND24"  Part="1" 
+AR Path="/61896CD9/E73C58C9" Ref="#GND024"  Part="1" 
+F 0 "#GND024" H 4400 4100 50  0001 C CNN
+F 1 "GND" H 4300 4000 59  0000 L BNN
+F 2 "" H 4400 4100 50  0001 C CNN
+F 3 "" H 4400 4100 50  0001 C CNN
+	1    4400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D D4
+U 1 1 8170C27B
+P 5000 3500
+AR Path="/8170C27B" Ref="D4"  Part="1" 
+AR Path="/61896CD9/8170C27B" Ref="D4"  Part="1" 
+F 0 "D4" H 5100 3519 59  0000 L BNN
+F 1 "1N4148" H 5100 3409 59  0000 L BNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5000 3500 50  0001 C CNN
+F 3 "" H 5000 3500 50  0001 C CNN
+	1    5000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D D5
+U 1 1 62AEB81D
+P 5600 3800
+AR Path="/62AEB81D" Ref="D5"  Part="1" 
+AR Path="/61896CD9/62AEB81D" Ref="D5"  Part="1" 
+F 0 "D5" H 5700 3819 59  0000 L BNN
+F 1 "1N4148" H 5700 3709 59  0000 L BNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5600 3800 50  0001 C CNN
+F 3 "" H 5600 3800 50  0001 C CNN
+	1    5600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R16
+U 1 1 50D019C7
+P 6200 3800
+AR Path="/50D019C7" Ref="R16"  Part="1" 
+AR Path="/61896CD9/50D019C7" Ref="R16"  Part="1" 
+F 0 "R16" H 6050 3859 59  0000 L BNN
+F 1 "100k" H 6050 3670 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6200 3800 50  0001 C CNN
+F 3 "" H 6200 3800 50  0001 C CNN
+	1    6200 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R13
+U 1 1 D7768B26
+P 7000 3500
+AR Path="/D7768B26" Ref="R13"  Part="1" 
+AR Path="/61896CD9/D7768B26" Ref="R13"  Part="1" 
+F 0 "R13" H 6850 3559 59  0000 L BNN
+F 1 "200k" H 6850 3370 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7000 3500 50  0001 C CNN
+F 3 "" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R3
+U 1 1 B4DD60F5
+P 8100 3900
+AR Path="/B4DD60F5" Ref="R3"  Part="1" 
+AR Path="/61896CD9/B4DD60F5" Ref="R3"  Part="1" 
+F 0 "R3" H 7950 3959 59  0000 L BNN
+F 1 "180" H 7950 3770 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8100 3900 50  0001 C CNN
+F 3 "" H 8100 3900 50  0001 C CNN
+	1    8100 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:GND #GND25
+U 1 1 F8CFB2B4
+P 6500 4200
+AR Path="/F8CFB2B4" Ref="#GND25"  Part="1" 
+AR Path="/61896CD9/F8CFB2B4" Ref="#GND025"  Part="1" 
+F 0 "#GND025" H 6500 4200 50  0001 C CNN
+F 1 "GND" H 6400 4100 59  0000 L BNN
+F 2 "" H 6500 4200 50  0001 C CNN
+F 3 "" H 6500 4200 50  0001 C CNN
+	1    6500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:GND #GND27
+U 1 1 5F8B303C
+P 8300 5600
+AR Path="/5F8B303C" Ref="#GND27"  Part="1" 
+AR Path="/61896CD9/5F8B303C" Ref="#GND027"  Part="1" 
+F 0 "#GND027" H 8300 5600 50  0001 C CNN
+F 1 "GND" H 8200 5500 59  0000 L BNN
+F 2 "" H 8300 5600 50  0001 C CNN
+F 3 "" H 8300 5600 50  0001 C CNN
+	1    8300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R17
+U 1 1 B52AF77D
+P 6200 4800
+AR Path="/B52AF77D" Ref="R17"  Part="1" 
+AR Path="/61896CD9/B52AF77D" Ref="R17"  Part="1" 
+F 0 "R17" H 6050 4859 59  0000 L BNN
+F 1 "100k" H 6050 4670 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6200 4800 50  0001 C CNN
+F 3 "" H 6200 4800 50  0001 C CNN
+	1    6200 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R15
+U 1 1 B76E86D9
+P 6900 4800
+AR Path="/B76E86D9" Ref="R15"  Part="1" 
+AR Path="/61896CD9/B76E86D9" Ref="R15"  Part="1" 
+F 0 "R15" H 6750 4859 59  0000 L BNN
+F 1 "200k" H 6750 4670 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6900 4800 50  0001 C CNN
+F 3 "" H 6900 4800 50  0001 C CNN
+	1    6900 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R2
+U 1 1 DD6B0340
+P 8100 5200
+AR Path="/DD6B0340" Ref="R2"  Part="1" 
+AR Path="/61896CD9/DD6B0340" Ref="R2"  Part="1" 
+F 0 "R2" H 7950 5259 59  0000 L BNN
+F 1 "180" H 7950 5070 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8100 5200 50  0001 C CNN
+F 3 "" H 8100 5200 50  0001 C CNN
+	1    8100 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R1
+U 1 1 DBCEC26B
+P 5900 2100
+AR Path="/DBCEC26B" Ref="R1"  Part="1" 
+AR Path="/61896CD9/DBCEC26B" Ref="R1"  Part="1" 
+F 0 "R1" H 5750 2159 59  0000 L BNN
+F 1 "180" H 5750 1970 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5900 2100 50  0001 C CNN
+F 3 "" H 5900 2100 50  0001 C CNN
+	1    5900 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R14
+U 1 1 53586E52
+P 6200 4500
+AR Path="/53586E52" Ref="R14"  Part="1" 
+AR Path="/61896CD9/53586E52" Ref="R14"  Part="1" 
+F 0 "R14" H 6050 4559 59  0000 L BNN
+F 1 "100k" H 6050 4370 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6200 4500 50  0001 C CNN
+F 3 "" H 6200 4500 50  0001 C CNN
+	1    6200 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:R-US_R0402 R12
+U 1 1 70FBA751
+P 6200 5100
+AR Path="/70FBA751" Ref="R12"  Part="1" 
+AR Path="/61896CD9/70FBA751" Ref="R12"  Part="1" 
+F 0 "R12" H 6050 5159 59  0000 L BNN
+F 1 "200k" H 6050 4970 59  0000 L BNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6200 5100 50  0001 C CNN
+F 3 "" H 6200 5100 50  0001 C CNN
+	1    6200 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L k2-eagle-import:GND #GND2
+U 1 1 C92C8F3B
+P 6500 5500
+AR Path="/C92C8F3B" Ref="#GND2"  Part="1" 
+AR Path="/61896CD9/C92C8F3B" Ref="#GND02"  Part="1" 
+F 0 "#GND02" H 6500 5500 50  0001 C CNN
+F 1 "GND" H 6400 5400 59  0000 L BNN
+F 2 "" H 6500 5500 50  0001 C CNN
+F 3 "" H 6500 5500 50  0001 C CNN
+	1    6500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L k2-eagle-import:A4L-LOC #FRAME7
+U 1 1 519C2D15
+P 1250 8000
+AR Path="/519C2D15" Ref="#FRAME7"  Part="1" 
+AR Path="/61896CD9/519C2D15" Ref="#FRAME7"  Part="1" 
+F 0 "#FRAME7" H 1250 8000 50  0001 C CNN
+F 1 "A4L-LOC" H 1250 8000 50  0001 C CNN
+F 2 "" H 1250 8000 50  0001 C CNN
+F 3 "" H 1250 8000 50  0001 C CNN
+	1    1250 8000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2700 1700 2800 1600
+Wire Notes Line
+	2800 1600 3000 1800
+Wire Notes Line
+	3000 1800 3100 1700
+Wire Notes Line
+	6300 1800 6400 1900
+Wire Notes Line
+	6400 1900 6600 1700
+Wire Notes Line
+	6600 1700 6700 1800
+Wire Notes Line
+	8400 3700 8500 3600
+Wire Notes Line
+	8500 3600 8600 3700
+Wire Notes Line
+	8600 3700 8800 3700
+Wire Notes Line
+	8400 5000 8500 4900
+Wire Notes Line
+	8500 4900 8600 5000
+Wire Notes Line
+	8600 5000 8700 4900
+Wire Notes Line
+	8700 4900 8800 5000
+Text Notes 7650 7200 0    85   ~ 0
+cc-by-sa
+Text Notes 9850 7200 0    85   ~ 0
+HW/FW rectifiers
+Text Notes 7650 7400 0    85   ~ 0
+Émilie Gillet
+NoConn ~ 6200 2200
+NoConn ~ 8400 5300
+NoConn ~ 8400 4000
+$Comp
+L Amplifier_Operational:TL074 IC?
+U 4 1 6193F090
+P 6900 5200
+AR Path="/6193F090" Ref="IC?"  Part="1" 
+AR Path="/61896CD9/6193F090" Ref="IC1"  Part="4" 
+F 0 "IC1" H 7000 5325 59  0001 L BNN
+F 1 "TL074" H 7000 5000 59  0001 L BNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6900 5200 50  0001 C CNN
+F 3 "" H 6900 5200 50  0001 C CNN
+	4    6900 5200
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 IC?
+U 2 1 619419B4
+P 4800 3800
+AR Path="/619419B4" Ref="IC?"  Part="1" 
+AR Path="/61896CD9/619419B4" Ref="IC1"  Part="2" 
+F 0 "IC1" H 4900 3925 59  0001 L BNN
+F 1 "TL074" H 4900 3600 59  0001 L BNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4800 3800 50  0001 C CNN
+F 3 "" H 4800 3800 50  0001 C CNN
+	2    4800 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 IC?
+U 3 1 619446E8
+P 4800 2100
+AR Path="/619446E8" Ref="IC?"  Part="1" 
+AR Path="/61896CD9/619446E8" Ref="IC1"  Part="3" 
+F 0 "IC1" H 4900 2225 59  0001 L BNN
+F 1 "TL074" H 4900 1900 59  0001 L BNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4800 2100 50  0001 C CNN
+F 3 "" H 4800 2100 50  0001 C CNN
+	3    4800 2100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5150 3500 5200 3500
+Wire Wire Line
+	4400 3200 4400 3500
+Wire Wire Line
+	4850 3500 4400 3500
+Connection ~ 4400 3500
+Wire Wire Line
+	4400 3500 4400 3700
+$Comp
+L Connector:Conn_01x05_Female J13
+U 1 1 61AC81BC
+P 8300 2050
+F 0 "J13" H 8192 1717 50  0000 C CNN
+F 1 "Conn_01x05_Female" H 8192 1716 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8300 2050 50  0001 C CNN
+F 3 "~" H 8300 2050 50  0001 C CNN
+	1    8300 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J16
+U 1 1 61ACA21E
+P 8250 2050
+F 0 "J16" H 8350 1700 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 8222 2073 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8250 2050 50  0001 C CNN
+F 3 "~" H 8250 2050 50  0001 C CNN
+	1    8250 2050
+	-1   0    0    1   
+$EndComp
+Text GLabel 8500 2150 2    50   Input ~ 0
+GND
+Text GLabel 8500 2250 2    50   Input ~ 0
+SignInB
+Text GLabel 8500 1950 2    50   Input ~ 0
+HROutB
+Text GLabel 8500 2050 2    50   Input ~ 0
+InvOutB
+Text GLabel 8500 1850 2    50   Input ~ 0
+FROutB
+Text GLabel 8050 1950 0    50   Input ~ 0
+HROutT
+Text GLabel 8050 1850 0    50   Input ~ 0
+FROutT
+Text GLabel 8050 2150 0    50   Input ~ 0
+GND
+Text GLabel 8050 2050 0    50   Input ~ 0
+InvOutT
+Text GLabel 8050 2250 0    50   Input ~ 0
+SignInT
+Text GLabel 5500 2100 1    50   Input ~ 0
+InvOutT
+Text GLabel 5400 2100 1    50   Input ~ 0
+InvOutB
+Text GLabel 3650 2000 1    50   Input ~ 0
+SignInB
+Text GLabel 3550 2000 1    50   Input ~ 0
+SignInT
+Text GLabel 7600 3900 1    50   Input ~ 0
+HROutT
+Text GLabel 7500 3900 1    50   Input ~ 0
+HROutB
+Text GLabel 7650 5200 1    50   Input ~ 0
+FROutT
+Text GLabel 7550 5200 1    50   Input ~ 0
+FROutB
+Wire Wire Line
+	7300 5200 7550 5200
+Connection ~ 7300 5200
+Wire Wire Line
+	7650 5200 7900 5200
+Wire Wire Line
+	7300 3900 7500 3900
+Connection ~ 7300 3900
+Wire Wire Line
+	7600 3900 7900 3900
+Wire Wire Line
+	5500 2100 5700 2100
+Wire Wire Line
+	5400 2100 5200 2100
+Connection ~ 5200 2100
+Wire Wire Line
+	3650 2000 3800 2000
+Connection ~ 3800 2000
+Wire Wire Line
+	3100 2000 3550 2000
+Text Notes 7600 6950 0    50   ~ 0
+rewrite by karl.stamm@gmail.com\nto KiCad, for 0805 two-board stack\nhand-craftable karltron.com and github.com/kstammits\n2021-november-13
+$EndSCHEMATC
