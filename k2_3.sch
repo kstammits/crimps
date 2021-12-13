@@ -905,4 +905,6 @@ Wire Wire Line
 	4450 5100 4600 5100
 Text Notes 7350 2900 0    50   ~ 0
 123 = SDG
+Text Notes 2100 2800 0    50   ~ 0
+That's not the correct pinout for MMBT3904
 $EndSCHEMATC
