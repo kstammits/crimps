@@ -2,3 +2,6 @@
 .DS_Store
 renum_logfile.txt
 *.zip
+*.kicad_pcb-bak
+*.sch-bak
+*.kicad_pcb-bak
