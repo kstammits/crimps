@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 5
 Title "Crimps"
 Date "2021-11-12"
-Rev "101"
+Rev "1.2.1"
 Comp "Karltron.com"
 Comment1 ""
 Comment2 ""
@@ -301,7 +301,7 @@ P 4300 1500
 AR Path="/E6329875" Ref="R27"  Part="1" 
 AR Path="/61897122/E6329875" Ref="R27"  Part="1" 
 F 0 "R27" H 4150 1559 59  0000 L BNN
-F 1 "1.5M" H 4150 1370 59  0000 L BNN
+F 1 "1M" H 4150 1370 59  0000 L BNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4300 1500 50  0001 C CNN
 F 3 "" H 4300 1500 50  0001 C CNN
 	1    4300 1500
@@ -607,7 +607,7 @@ F 3 "" H 1500 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NPN_EBC Q2
+L device:Q_NPN_BEC Q2
 U 1 1 5C6CF9B0
 P 2300 2100
 AR Path="/5C6CF9B0" Ref="Q2"  Part="1" 
@@ -620,7 +620,7 @@ F 3 "" H 2300 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Q_NPN_EBC Q3
+L device:Q_NPN_BEC Q3
 U 1 1 FFA79A6C
 P 2700 2100
 AR Path="/FFA79A6C" Ref="Q3"  Part="1" 
@@ -897,7 +897,7 @@ Wire Wire Line
 Text Notes 8500 6900 0    50   ~ 0
 rewrite by karl.stamm@gmail.com\nfor DIY / SMD0805 hand craft in two panels\nkarltron.com\ngithub.com/kstammits
 Text Notes 6300 4500 0    50   ~ 0
-this circuit had a decoupler \nbetween r25 and vcc \nspecced at 4u7 tant\nremoved because i dont know what it was for
+this circuit had a decoupler \nbetween its r25 and vcc   (here R26)\nspecced at 4u7 tant\nremoved because i dont know what it was for
 Wire Wire Line
 	4100 5100 4150 5100
 Connection ~ 4100 5100
@@ -906,5 +906,9 @@ Wire Wire Line
 Text Notes 7350 2900 0    50   ~ 0
 123 = SDG
 Text Notes 2100 2800 0    50   ~ 0
-That's not the correct pinout for MMBT3904
+That's not the correct pinout for MMBT3904\nhad to install them upside down to flip B/E
+Text Notes 3950 1300 0    50   ~ 0
+R27 sets noise level\noriginal was 1.5M but the resulting 18vpp was problematic\nnow 1M gives about 12Vpp which is great
+Text Notes 7800 3450 0    50   ~ 0
+special C0G 10nF for better hold time
 $EndSCHEMATC

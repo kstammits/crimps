@@ -1,4 +1,4 @@
-19311290365350890
+19312928169968890
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -1553,6 +1553,13 @@ Push Button
 0
 4
 4
+Button_Switch_THT
+SPDT_Tayda-A5111
+
+
+0
+5
+3
 Button_Switch_THT
 SW_CW_GPTS203211B
 SPST Off-On Pushbutton, 1A, 30V, CW Industries P/N GPTS203211B, http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf
@@ -83387,62 +83394,63 @@ k2
 LED3MM
 <B>LED</B><p>
 3 mm, round
-0
+
 0
 2
 2
 k2
 R0402
 <b>RESISTOR</b>
-0
+
 0
 2
 2
 k2
 ROHS
 
-0
+
 0
 0
 0
 k2
 SOD523
 <B>DIODE</B>
-0
+
 0
 2
 2
 k2
 SOT23
 <b>SOT-23</b>
-0
+
 0
 3
 3
 k2
 SOT23-5
 <b>Small Outline Transistor</b>, 5 lead
-0
+
 0
 5
 5
 k2
 SOT23-BEC
 TO-236 ITT Intermetall
-0
+
 0
 3
 3
 k2
 TSSOP14
 <b>Thin Shrink Small Outline Plastic 14</b>
-0
+
 0
 14
 14
 k2
 WQP_PJ_301M6
 
+
 0
-0
+3
 3
