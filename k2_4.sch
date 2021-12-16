@@ -396,12 +396,6 @@ Text Notes 7500 6950 0    85   ~ 0
 cc-by-sa
 Text Notes 9700 6950 0    85   ~ 0
 Power entry
-Text Notes 9100 2500 0    42   ~ 0
-eg AVX F981C475MMA
-Text Notes 9100 2400 0    42   ~ 0
-ceramic or tantalum
-Text Notes 9100 2300 0    42   ~ 0
-C9:
 Text Notes 7500 7150 0    85   ~ 0
 Émilie Gillet
 Text Notes 7500 7350 0    85   ~ 0
@@ -445,11 +439,11 @@ Wire Wire Line
 Wire Wire Line
 	3050 3350 3100 3350
 Text Notes 6250 1600 0    50   ~ 0
-reminder to later\nplay with these cap values\ni dont think they need to be so large
+reminder to later\nplay with these cap values\ni dont think they need to be so large\nseems to work sans a second set of 22u
 Text Notes 2450 2500 0    50   ~ 0
-Kinks had ferrite inductors on the input\ni've removed them\nmight want a 10R for noise suprpesison though???
+Kinks had ferrite inductors on the input\ni've removed them\nmight want a 10R for noise suprpesison though???\nHad been S1JL but I like THT 1N5819
 Text Notes 7400 6450 0    50   ~ 0
-modified by karl.stamm@gmail.com\nfrom Kinks v4.1 to Crimps v1.0.1\nkarltron.com/crimps\n
+modified by karl.stamm@gmail.com\nfrom Kinks v4.1 to Crimps v1.x\nkarltron.com/crimps\n
 Wire Wire Line
 	3700 3350 3100 3350
 Connection ~ 3100 3350

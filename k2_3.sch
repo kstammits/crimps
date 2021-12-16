@@ -747,8 +747,8 @@ U 1 1 C31D8B89
 P 6500 2900
 AR Path="/C31D8B89" Ref="IC3"  Part="1" 
 AR Path="/61897122/C31D8B89" Ref="IC3"  Part="1" 
-F 0 "IC3" H 6600 3025 59  0001 L BNN
-F 1 "TL074" H 6600 2700 59  0001 L BNN
+F 0 "IC3" H 6600 3025 59  0000 L BNN
+F 1 "OPA4171" H 6600 2700 59  0000 L BNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6500 2900 50  0001 C CNN
 F 3 "" H 6500 2900 50  0001 C CNN
 	1    6500 2900
@@ -760,8 +760,8 @@ U 2 1 6191608E
 P 4300 1900
 AR Path="/6191608E" Ref="IC?"  Part="1" 
 AR Path="/61897122/6191608E" Ref="IC3"  Part="2" 
-F 0 "IC3" H 4400 2025 59  0001 L BNN
-F 1 "TL074" H 4400 1700 59  0001 L BNN
+F 0 "IC3" H 4400 2025 59  0000 L BNN
+F 1 "OPA4171" H 4400 1700 59  0000 L BNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4300 1900 50  0001 C CNN
 F 3 "" H 4300 1900 50  0001 C CNN
 	2    4300 1900
@@ -773,8 +773,8 @@ U 3 1 61919844
 P 6500 5000
 AR Path="/61919844" Ref="IC?"  Part="1" 
 AR Path="/61897122/61919844" Ref="IC3"  Part="3" 
-F 0 "IC3" H 6600 5125 59  0001 L BNN
-F 1 "TL074" H 6600 4800 59  0001 L BNN
+F 0 "IC3" H 6600 5125 59  0000 L BNN
+F 1 "OPA4171" H 6600 4800 59  0000 L BNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6500 5000 50  0001 C CNN
 F 3 "" H 6500 5000 50  0001 C CNN
 	3    6500 5000
@@ -786,8 +786,8 @@ U 4 1 6191CC51
 P 8200 2800
 AR Path="/6191CC51" Ref="IC?"  Part="1" 
 AR Path="/61897122/6191CC51" Ref="IC3"  Part="4" 
-F 0 "IC3" H 8300 2925 59  0001 L BNN
-F 1 "TL074" H 8300 2600 59  0001 L BNN
+F 0 "IC3" H 8300 2925 59  0000 L BNN
+F 1 "OPA4171" H 8300 2600 59  0000 L BNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8200 2800 50  0001 C CNN
 F 3 "" H 8200 2800 50  0001 C CNN
 	4    8200 2800
@@ -905,10 +905,10 @@ Wire Wire Line
 	4450 5100 4600 5100
 Text Notes 7350 2900 0    50   ~ 0
 123 = SDG
-Text Notes 2100 2800 0    50   ~ 0
-That's not the correct pinout for MMBT3904\nhad to install them upside down to flip B/E
 Text Notes 3950 1300 0    50   ~ 0
 R27 sets noise level\noriginal was 1.5M but the resulting 18vpp was problematic\nnow 1M gives about 12Vpp which is great
 Text Notes 7800 3450 0    50   ~ 0
 special C0G 10nF for better hold time
+Text Notes 7250 2250 0    50   ~ 0
+other jfets seem to work\ntesting ...
 $EndSCHEMATC
