@@ -35,6 +35,6 @@ so actually it works fine. i should/need/to/ reduce the noise volume to 10vpp to
 
 
 
--- i modded the threshold voltage with a 470K, lets check if that is used elsewhere and realy saving me parts. i wouldnt mind to tweak that threshold.  but it's a third 1M, so already good on parts list. 
+
 
 
