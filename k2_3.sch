@@ -301,7 +301,7 @@ P 4300 1500
 AR Path="/E6329875" Ref="R27"  Part="1" 
 AR Path="/61897122/E6329875" Ref="R27"  Part="1" 
 F 0 "R27" H 4150 1559 59  0000 L BNN
-F 1 "1M" H 4150 1370 59  0000 L BNN
+F 1 "470K" H 4150 1370 59  0000 L BNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4300 1500 50  0001 C CNN
 F 3 "" H 4300 1500 50  0001 C CNN
 	1    4300 1500
@@ -906,7 +906,7 @@ Wire Wire Line
 Text Notes 7350 2900 0    50   ~ 0
 123 = SDG
 Text Notes 3950 1300 0    50   ~ 0
-R27 sets noise level\noriginal was 1.5M but the resulting 18vpp was problematic\nnow 1M gives about 12Vpp which is great
+R27 sets noise level\noriginal was 1.5M but the resulting 18vpp was problematic\nnow 1M gives about 12Vpp which is borderline\ntry also a 470K to really cut back and be safe. now 7Vpp works well
 Text Notes 7800 3450 0    50   ~ 0
 special C0G 10nF for better hold time
 Text Notes 7250 2250 0    50   ~ 0
