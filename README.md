@@ -18,7 +18,7 @@ signal diode:
 FDLL4148 is D1206
 
 
-changing pinout on transistors, to SOT-23. so DO BE CAREFUL AND RECHECK THE PINOUT  (note v101 has the transistors on upside down)
+changing pinout on transistors, to SOT-23. so DO BE CAREFUL AND RECHECK THE PINOUT  (note v101 has the transistors on upside down, v122 is fixed)
 
 
 layout looking fine in 0805
