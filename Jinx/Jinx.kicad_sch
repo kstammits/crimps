@@ -1,0 +1,97 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid bd532674-9db6-4fc7-8f2a-f253dcee9e8b)
+
+  (paper "A4")
+
+  (title_block
+    (title "Jinx")
+    (date "2023-12-17")
+    (rev "1.0.1")
+    (company "Karltron")
+    (comment 1 "S&H from Mutable Instruments Kinks")
+    (comment 2 "cc-by-sa-3 viral")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "based on Kinks v4.1 by Emilie Gillet\ncc-by-sa\nredesign for KiCad and two board 0805 stack\nfrom Eagle's 1-board 0402 design.\nNow called Crimps by karltron\nkarl.stamm@gmail.com \n2021-november-13\nversion 1.0.1\n-==-\nThen Redesign as three S&H - Jinx\n2023-Dec-17\nThe Name Jinx comes from \nhttps://github.com/forestcaver/Jinx\nBut the design is custom Karltron"
+    (at 87.63 120.65 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0c3ee379-23b4-4c7a-8909-b66249fb6484)
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061896cd9)
+    (property "Sheetname" "k2_1" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "k2_1.kicad_sch" (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jinx"
+        (path "/bd532674-9db6-4fc7-8f2a-f253dcee9e8b" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061896f14)
+    (property "Sheetname" "k2_2" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "k2_2.kicad_sch" (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jinx"
+        (path "/bd532674-9db6-4fc7-8f2a-f253dcee9e8b" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061897122)
+    (property "Sheetname" "k2_3" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "k2_3.kicad_sch" (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jinx"
+        (path "/bd532674-9db6-4fc7-8f2a-f253dcee9e8b" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00006189742f)
+    (property "Sheetname" "k2_4" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "k2_4.kicad_sch" (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Jinx"
+        (path "/bd532674-9db6-4fc7-8f2a-f253dcee9e8b" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

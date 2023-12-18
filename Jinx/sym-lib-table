@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "k2-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/k2-eagle-import.lib")(options "")(descr ""))
+  (lib (name "Jinx-rescue")(type "KiCad")(uri "${KIPRJMOD}/Jinx-rescue.kicad_sym")(options "")(descr ""))
+)
