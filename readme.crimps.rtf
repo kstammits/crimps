@@ -1,0 +1,56 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Mutable Kinks\
+Karltron Crimps\
+21Nov08\
+\
+it's cc-by-sa so copyleft\
+someone else started a tht version, asking about it but not shared yet because reasons. \
+on easyeda he doesnt know how to share that.\
+\
+\
+seems to fit in 0805 on one extra board. with no output LEDs. \
+\
+FDLL4148 is D1206\
+i dont know if these diodes are pointing the right direction after changing footprints.\
+check the eagle schematic again for polarity.\
+\
+21nov15\
+\
+\
+changing pinout on transistors, to SOT-23. so DO BE CAREFUL AND RECHECK THE PINOUT \
+checked. check.\
+layout looking fine in 0805. could do THT except for ICs.... well idk.\
+0805 is laid out now. needs review before ordering. \
+needs a https://www.digikey.com/en/products/detail/kemet/C0805C103J5GEC7210/8645966\
+\
+\
+\
+\
+the j112 seems to work well. but noise is dead.\
+give it an in and the s&h works. with J112 and OPA4174\
+\
+FDLL pads could be taller please. \
+wrong jfet is fine. get a few to try.\
+upside down mmbf3904. needs rewrite of board.\
+\
+seems the input normalled to noise is triggering the trigger perhaps by crosstalk.  the falling tone is just the likelihood of a trigger getting seen. \
+after some exploration:\
+but its not crosstalk, i think its power rail fluctuations or ground plane shenanigans with the trigger's threshold, or trigger pulldown. \
+the original had a ton mroe decoupling, so that's a clue. \
+\
+figured it out was just the gate threshold at -11 being too close to the input at -7v. we open the signal path\
+so really the module is fine lolol.\
+then changed the opa41 to a tl074 and found it pushes only -7v, so really triggery easier.  the noise went up to +/-7 and that hits the gate easyyy.\
+\
+v122 works great\
+\
+update R27 down from 470K to maybe 330K or half 470 (parallel = 235K)\
+\
+\
+}

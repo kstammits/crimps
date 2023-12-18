@@ -8,6 +8,5 @@ renum_logfile.txt
 k2.kicad_pcb-bak
 _autosave-k2.kicad_pcb
 *.jpeg
-gbr2
-gbr0
-gbr1
+Jinx/gbr*
+crimps/gbr*
