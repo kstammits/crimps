@@ -1,0 +1,88 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d652e1e8-a2c3-40d0-b463-44f8b9e9bad6)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "based on Kinks v4.1 by Emilie Gillet\ncc-by-sa\nredesign for KiCad and two board 0805 stack\nfrom Eagle's 1-board 0402 design.\nNow called Crimps by karltron\nkarl.stamm@gmail.com \n2021-november-13\nversion 1.0.1"
+    (at 87.63 120.65 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c366245a-1bce-4c94-8a4f-b4c6e27092e1)
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061896cd9)
+    (property "Sheetname" "k2_1" (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "k2_1.kicad_sch" (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "k2"
+        (path "/d652e1e8-a2c3-40d0-b463-44f8b9e9bad6" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061896f14)
+    (property "Sheetname" "k2_2" (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "k2_2.kicad_sch" (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "k2"
+        (path "/d652e1e8-a2c3-40d0-b463-44f8b9e9bad6" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061897122)
+    (property "Sheetname" "k2_3" (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "k2_3.kicad_sch" (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "k2"
+        (path "/d652e1e8-a2c3-40d0-b463-44f8b9e9bad6" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00006189742f)
+    (property "Sheetname" "k2_4" (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "k2_4.kicad_sch" (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "k2"
+        (path "/d652e1e8-a2c3-40d0-b463-44f8b9e9bad6" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

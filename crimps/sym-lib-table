@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name k2-eagle-import)(type Legacy)(uri ${KIPRJMOD}/k2-eagle-import.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "k2-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/k2-eagle-import.lib")(options "")(descr ""))
+  (lib (name "k2-rescue")(type "KiCad")(uri "${KIPRJMOD}/k2-rescue.kicad_sym")(options "")(descr ""))
 )
